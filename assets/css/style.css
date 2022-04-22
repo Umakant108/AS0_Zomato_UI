@@ -1,0 +1,244 @@
+body {
+  font-size: 10px; /* Now 1 rem = 10px */
+}
+
+@media screen and (max-width: 376px) {
+  main {
+    max-width: 37.5rem;
+  }
+
+  For Mobile Screen .header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .one {
+    background-color: white;
+    box-shadow: 0 5px 5px 0px lightgray;
+  }
+
+  .one-inner {
+    display: flex;
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+  }
+
+  #icon-zomato {
+    width: 6rem;
+    align-self: center;
+  }
+
+  .two {
+    position: sticky;
+    top: 0rem;
+    z-index: 100;
+    width: 100%;
+    padding-top: 0.7rem;
+    background-color: white;
+  }
+
+  .two-inner {
+    /* position: sticky;
+    top: 3rem;
+    z-index: 100; */
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 3rem;
+    margin: 0.5rem auto;
+    /* justify-content: space-between; */
+
+    border: 1px solid gray;
+    border-radius: 0.9rem;
+
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .filter-outer {
+    /* position: sticky;
+    top: 10px;
+    z-index: 125; */
+    width: 100%;
+    max-width: 70em;
+    margin: 0 auto;
+    height: 1rem;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  .filter-section {
+    /* position: sticky;
+    top: 25px;
+    z-index: 10; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 20px;
+
+    background-color: ;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .filter-option {
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    height: 2em;
+    border-radius: 8px;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    font-weight: 400;
+  }
+
+  .f-count {
+    padding: 0.2em 0.4em 0.2em;
+    color: white;
+    background-color: rgb(239, 79, 95);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grey-text {
+    font-weight: 300;
+  }
+
+  .header-h1 {
+    max-width: 70em;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-h1 h1 {
+    margin: 0;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .food-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 22rem;
+  }
+
+  .foodcard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border: 1px solid silver;
+    width: 100%;
+  }
+  .foodimg {
+    width: 100%;
+
+    position: relative;
+    border-radius: 0.8rem;
+    /* padding: ; */
+  }
+
+  #food-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+
+  .promoted {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+  }
+
+  .offer-percent {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+  }
+
+  .delivery-time {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: white;
+    color: darkgray;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+  }
+
+  .rname-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rname {
+    font-size: 1.6rem;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: green;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+  }
+
+  .description-charge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .footnote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .arrow-image {
+    width: 1rem;
+  }
+  .max-img {
+    height: 1rem;
+  }
+}
